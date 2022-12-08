@@ -4,7 +4,7 @@ import numpy as np
 
 from joblib import Memory
 
-memory = Memory(cachedir="cache")
+memory = Memory("cache")
 
 
 def plot_pca_illustration():
